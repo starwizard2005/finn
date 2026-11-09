@@ -11,7 +11,7 @@ const VERDICT: Record<PromiseItem["verdict"], { label: string; cls: string }> = 
   pending: { label: "Pending", cls: "border border-line text-ink-2" },
 };
 
-export function DeepPanel({ symbol, seeded, hasCalls }: { symbol: string; seeded: DeepAnalysis | null; hasCalls: boolean }) {
+export function DeepPanel({ symbol, seeded }: { symbol: string; seeded: DeepAnalysis | null; hasCalls?: boolean }) {
   const [deep, setDeep] = useState<DeepAnalysis | null>(seeded);
   const [state, setState] = useState<"idle" | "loading" | "error">("idle");
   const [err, setErr] = useState("");
@@ -35,8 +35,8 @@ export function DeepPanel({ symbol, seeded, hasCalls }: { symbol: string; seeded
       <Panel className="px-4 py-4">
         <p className="text-[15px]">FINN can read the last four earnings-call transcripts, pull out every number management promised, and check it against what the company reported.</p>
         <p className="mt-1.5 text-[13px] text-ink-3">About 30 seconds. Uses primary sources only: transcripts filed with the exchange and reported financials.</p>
-        <button disabled={state === "loading" || !hasCalls} onClick={run} className="mt-3 rounded-full bg-ink px-4 py-2 text-[14px] font-semibold text-sheet disabled:opacity-50">
-          {state === "loading" ? "Reading transcripts…" : hasCalls ? "Read the transcripts" : "No transcripts listed for this company"}
+        <button disabled={state === "loading"} onClick={run} className="mt-3 rounded-full bg-ink px-4 py-2 text-[14px] font-semibold text-sheet disabled:opacity-50">
+          {state === "loading" ? "Reading transcripts…" : "Read the transcripts"}
         </button>
         {state === "error" && <p className="mt-2 text-[13px] text-loss">{err}</p>}
       </Panel>
