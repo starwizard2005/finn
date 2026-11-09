@@ -27,6 +27,7 @@ Be concise and specific; prefer numbers to adjectives.`;
 
 export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
   const calls = f.concalls.filter((c) => c.transcript).slice(0, 4);
+  const started = Date.now();
   if (!calls.length) throw new Error("No earnings-call transcripts listed for this company");
 
   // 1. Code: fetch + extract text + pre-filter (no tokens spent)
@@ -44,9 +45,8 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
   const got = texts.filter((x): x is NonNullable<typeof x> => !!x && x.text.length > 2000);
   if (!got.length) throw new Error(`Step 1 (download transcripts from BSE) failed: ${errs.join("; ").slice(0, 300) || "PDFs had no text"}`);
 
-  // 2. FAST model, map step: one call per transcript
-  const commitments = (
-    await Promise.all(
+  // 2. FAST model, map step: one call per transcript (a failed transcript is skipped, not fatal)
+  const mapped = await Promise.allSettled(
       got.map(async (t) => {
         const sentences = forwardLooking(t.text, 70);
         const r = await generateJSON<{ commitments: Commitment[] }>({
@@ -58,8 +58,12 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
         });
         return (r.data.commitments ?? []).map((c) => ({ ...c, period: t.period }));
       }),
-    )
-  ).flat();
+  );
+  const commitments = mapped.flatMap((m) => (m.status === "fulfilled" ? m.value : [])).slice(0, 24);
+  if (!commitments.length) {
+    const why = mapped.find((m) => m.status === "rejected") as PromiseRejectedResult | undefined;
+    throw new Error(`Step 2 (extract guidance with the fast model) failed: ${why ? (why.reason as Error).message : "no forward-looking statements found"}`);
+  }
 
   // 3. SMART model, reduce step: verdicts against code-computed numbers
   const qt = quarterTable(f, 9);
@@ -74,11 +78,8 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
     ...Object.entries(f.efficiency?.rows ?? {}).map(([k, v]) => `${k}: ${v.join(" | ")}`),
   ].join("\n");
 
-  const r = await generateJSON<Omit<DeepAnalysis, "symbol" | "generatedAt" | "generatedBy" | "sources">>({
-    timeoutMs: 45000,
-    tier: "smart",
-    system: REDUCE_SYSTEM,
-    prompt: `Company: ${f.name} (${f.symbol}). About: ${f.about}
+  type Out = Omit<DeepAnalysis, "symbol" | "generatedAt" | "generatedBy" | "sources">;
+  const reducePrompt = `Company: ${f.name} (${f.symbol}). About: ${f.about}
 
 COMMITMENTS (from the last ${got.length} earnings calls, newest first):
 ${commitments.map((c, i) => `${i + 1}. [${c.period}] (${c.topic}) "${c.quote}" — target: ${c.target ?? "?"}, horizon: ${c.horizon ?? "?"}`).join("\n")}
@@ -92,9 +93,22 @@ Return JSON:
  "promises":[{"topic":"","promised":"one line","when":"call period","delivered":"one line with the actual number","verdict":"delivered|missed|partly|pending|beat","evidence":[{"quote":"verbatim from commitments","source":"call period"}]}],
  "narrativeVsNumbers":["3-4 sharp observations where the story and the numbers agree or diverge"],
  "bull":["3 bullets"],"bear":["3 bullets"]}
-Max 6 promises, most material first.`,
-    maxTokens: 5000,
-  });
+Max 6 promises, most material first. Keep every string short.`;
+  // SMART model first; if it is slow or rate-limited (free tier ~20/day), fall back to the fast model so the
+  // investor still gets an answer within the request budget.
+  const left = () => 105000 - (Date.now() - started);
+  let r: Awaited<ReturnType<typeof generateJSON<Out>>>;
+  let fellBack = "";
+  try {
+    r = await generateJSON<Out>({ tier: "smart", system: REDUCE_SYSTEM, prompt: reducePrompt, maxTokens: 3000, timeoutMs: Math.max(15000, Math.min(60000, left() - 35000)) });
+  } catch (e) {
+    fellBack = ` (smart model unavailable: ${(e as Error).message.slice(0, 60)}; used fast model)`;
+    try {
+      r = await generateJSON<Out>({ tier: "fast", system: REDUCE_SYSTEM, prompt: reducePrompt, maxTokens: 3000, timeoutMs: Math.max(10000, left() - 3000) });
+    } catch (e2) {
+      throw new Error(`Step 3 (synthesis) failed: ${(e2 as Error).message}`);
+    }
+  }
 
   // 4. Code: verify every quote really appears in a transcript
   const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9%]+/g, " ").trim();
@@ -108,7 +122,7 @@ Max 6 promises, most material first.`,
   return {
     symbol: f.symbol,
     generatedAt: new Date().toISOString(),
-    generatedBy: `${r.model} (synthesis) + fast model (extraction); ${promises.reduce((s, p) => s + p.evidence.length, 0)} quotes verified against transcripts`,
+    generatedBy: `${r.model} (synthesis) + fast model (extraction); ${promises.reduce((s, p) => s + p.evidence.length, 0)} quotes verified against transcripts${fellBack}`,
     sources: got.map((t) => ({ label: `Earnings call transcript — ${t.period}`, url: t.url })),
     businessSnapshot: r.data.businessSnapshot,
     guidance: r.data.guidance ?? [],

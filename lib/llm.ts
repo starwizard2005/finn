@@ -43,7 +43,9 @@ export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt
   let lastErr: unknown;
   for (const model of models) {
     for (let attempt = 0; attempt < 2; attempt++) {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+      let res: Response;
+      try {
+      res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
         method: "POST",
         headers: { "content-type": "application/json", "x-goog-api-key": key },
         signal: AbortSignal.timeout(opts.timeoutMs ?? 40000),
@@ -57,6 +59,11 @@ export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt
           },
         }),
       });
+      } catch (e) {
+        // A timeout on one model should not try three more slow models; surface it to the caller.
+        const err = e as Error;
+        throw new Error(err.name === "TimeoutError" || /abort/i.test(err.message) ? `${model} timed out` : `${model}: ${err.message}`);
+      }
       if (res.status === 401 || res.status === 403) throw new Error(`Gemini rejected the API key (${res.status}). Check GEMINI_API_KEY. ${(await res.text()).slice(0, 160)}`);
       if (res.status === 404 || res.status === 400) {
         lastErr = new Error(`${model}: ${res.status} ${(await res.text()).slice(0, 200)}`);
