@@ -1,0 +1,123 @@
+{
+  "_note": "Key passages extracted from the actual exchange filing PDFs (nsearchives.nseindia.com) with pdf.js during the build. In production this is done by the pipeline: pdf text -> small LLM extraction call.",
+  "HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf": {
+    "headline": "Anup Bagchi takes charge as MD & CEO; Sashidhar Jagdishan exits on completion of tenure",
+    "facts": [
+      "Sashidhar Jagdishan vacated office as MD & CEO at close of business on 26 Oct 2026 on completion of his tenure.",
+      "Anup Bagchi assumed charge as MD & CEO effective 27 Oct 2026.",
+      "Board credits Jagdishan with steering completion of the HDFC-HDFC Bank merger."
+    ],
+    "people": [
+      {"name": "Anup Bagchi", "role": "MD & CEO", "change": "appointed", "profileFrom": "HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf"},
+      {"name": "Sashidhar Jagdishan", "role": "MD & CEO", "change": "ceased"}
+    ]
+  },
+  "HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf": {
+    "headline": "RBI approval: Anup Bagchi to be MD & CEO (brief profile)",
+    "profile": {
+      "name": "Anup Bagchi",
+      "summary": "30+ years across banking, capital markets, wealth management and insurance; with the ICICI Group since 1992.",
+      "career": [
+        {"org": "ICICI Group", "role": "Treasury, retail, wholesale & investment banking roles", "from": 1992, "to": 2026},
+        {"org": "ICICI Securities", "role": "MD & CEO", "from": null, "to": 2017},
+        {"org": "ICICI Bank", "role": "Executive Director (Retail, Business & Rural Banking; later Wholesale)", "from": 2017, "to": 2023},
+        {"org": "ICICI Prudential AMC", "role": "Chairman", "from": null, "to": 2023},
+        {"org": "ICICI Prudential Life Insurance", "role": "MD & CEO", "from": 2023, "to": 2026}
+      ],
+      "highlights": [
+        "Under his watch ICICI Bank became the first private bank to cross Rs 2 trn in retail mortgages.",
+        "ICICI Pru Life crossed Rs 10,000 cr APE for the first time in FY2025."
+      ],
+      "education_enrichment": [{"org": "IIT Kanpur", "degree": "B.Tech"}, {"org": "IIM Bangalore", "degree": "PGDM"}],
+      "education_source": "public professional profile (enrichment, not in filing)"
+    }
+  },
+  "HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf": {
+    "headline": "V. N. Srivatsan assumes office as Chief Compliance Officer",
+    "profile": {
+      "name": "V. N. Srivatsan",
+      "summary": "~34 years experience, ~25 in BFSI, ~10 in compliance & regulatory inspection.",
+      "career": [
+        {"org": "ICICI Bank", "role": "Head - Compliance: Overseas Banking & Subsidiaries; Data Privacy Officer", "from": null, "to": 2026},
+        {"org": "ICICI Bank", "role": "Led Retail Banking Compliance & Regulatory Inspection (8+ yrs)", "from": null, "to": null}
+      ],
+      "education": [{"org": "PSG College of Technology", "degree": "MBA"}, {"org": "Sri Venkateswara University", "degree": "B.Tech"}]
+    },
+    "replaces": "Rakesh Kumar Rajput (CCO since 1 Oct 2023)"
+  },
+  "HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf": {
+    "headline": "Sanjay D'Souza, Group Head - Business Banking (SME), superannuates after ~27 years",
+    "facts": ["Ceased to be Senior Management Personnel at close of 31 Oct 2026.", "Described by the Bank as a key architect of its SME business."],
+    "people": [{"name": "Sanjay D'Souza", "role": "Group Head - Business Banking, Emerging & Micro Enterprises", "change": "ceased"}]
+  },
+  "CGPOWER_23102026142822_OutcomeoftheBoardMeeting23102026.pdf": {
+    "headline": "Two senior hires designated Senior Management: Rajat Shah and Rushikesh Kulkarni",
+    "profiles": [
+      {
+        "name": "Rajat Shah",
+        "summary": "26+ years global leadership across services, digital transformation, engineering and product development.",
+        "career": [
+          {"org": "Tetra Pak", "role": "Vice President - Services (Sweden)", "from": null, "to": 2026},
+          {"org": "Ingersoll Rand", "role": null},
+          {"org": "Subros", "role": null},
+          {"org": "Behr", "role": null},
+          {"org": "General Motors", "role": null}
+        ],
+        "education": [{"org": "University of Michigan", "degree": "MBA"}, {"org": "University of Illinois", "degree": "MS Mech Eng"}, {"org": "IIT Guwahati", "degree": "B.Tech Mech Eng"}]
+      },
+      {
+        "name": "Rushikesh Kulkarni",
+        "summary": "20+ years in industrial automation, consumer electronics, embedded systems and connected products; 30+ patents; author of 'The Psychology of Cost Leadership'.",
+        "career": [{"org": "GIC"}, {"org": "Eaton"}, {"org": "Whirlpool"}, {"org": "Honeywell"}, {"org": "Bosch"}],
+        "education": []
+      }
+    ]
+  },
+  "CGPOWER_23102026142708_OutcomeoftheBoardMeeting23102026.pdf": {
+    "headline": "Capex: +10,000 MVA power transformer capacity (Rs 68 cr) plus switchgear brownfield expansion",
+    "facts": ["Existing power transformer plant is running at maximum capacity.", "Rs 68 cr (net of taxes) to add 10,000 MVA; 12-15 months to complete.", "Further brownfield expansion approved at switchgear units (S1 OIP, S3)."]
+  },
+  "CGPOWER_05112026123502_Draft_SE_Disclosure-_Closure_of_Operations-051126.pdf": {
+    "headline": "Maharashtra Pollution Control Board directs closure of Waluj (Chh. Sambhajinagar) unit",
+    "facts": ["MPCB direction dated 3 Nov 2026 under the Water and Air Acts.", "Company reviewing the direction."]
+  },
+  "CGPOWER_07112026134853_Disclosure-_High_Court_Stay_order_on_Closure_of_Operations.pdf": {
+    "headline": "Bombay HC (Aurangabad bench) stays MPCB closure order; unit is ~2.5% of revenue",
+    "facts": ["Stay order dated 6 Nov 2026; notice returnable 19 Nov 2026.", "Waluj unit contributes approx. 2.5% of annual consolidated revenue."]
+  },
+  "DIXON_30102026160939_Outcome30102026.pdf": {
+    "headline": "Prithvi Vachani appointed Executive Director (5 years)",
+    "profile": {
+      "name": "Prithvi Vachani",
+      "summary": "Vice President at Dixon; led the boAt collaboration, the Chennai facility build-out and the Asus/HP partnerships that scaled Dixon's IT hardware division.",
+      "career": [{"org": "Dixon Technologies", "role": "Vice President", "from": 2017, "to": 2026}],
+      "education": [{"org": "Bentley University", "degree": "Graduate, 2017"}]
+    }
+  },
+  "SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf": {
+    "headline": "Halt order at Assam eye-care plant relates to August 2026, not a new event",
+    "facts": ["Company says the 30 Oct news report covers August 2026 developments, assessed then as not requiring disclosure.", "Results were also declared on 30 Oct; company cannot attribute the price move to the report."]
+  },
+  "POLYCAB_30102026121954_SECIRP30102026.pdf": {
+    "headline": "NCLAT sets aside NCLT insolvency admission in Asier Metals vs Polycab",
+    "facts": ["NCLAT order dated 30 Oct 2026 allowed Polycab's appeal.", "Overturns NCLT Ahmedabad order dated 7 Oct 2026."]
+  },
+  "ZOMATO_21102026153325_OutcomeSIGNED.pdf": {
+    "headline": "Eternal moves 'Going-out' business into subsidiary ZEPL via slump sale",
+    "facts": ["BTA with Zomato Entertainment Pvt Ltd (wholly owned) for the Going-out India business.", "Going-out businesses in OTPL and WEPL to be consolidated into ZEPL too."]
+  },
+  "PVIVINMA_24102026214355_RIL_SE_241026.pdf": {
+    "headline": "Jio Platforms IPO priced at Rs 1,119/share",
+    "facts": ["Fresh issue of up to 27 crore shares; subscription 21-23 Oct 2026.", "Trading in JPL shares commenced 28 Oct 2026 (per 27 Oct filing)."]
+  },
+  "TITAN_05112026185140_SENNTata.pdf": {
+    "headline": "Noel N. Tata to retire as Director & Vice-Chairman from 12 Nov 2026 (Tata Group governance guidelines)",
+    "people": [{"name": "Noel N. Tata", "role": "Vice-Chairman", "change": "ceased"}]
+  },
+  "PAM_09112026103717_PressRelease09112026.pdf": {"headline": "'Significant' order (Rs 1,000-2,500 cr) - Noida Metro Aqua Line extension"},
+  "PAM_02112026101835_PressRelease02112026.pdf": {"headline": "'Significant' orders (Rs 1,000-2,500 cr) - residential, commercial buildings & factories"},
+  "PAM_27102026101631_PressRelease27102026.pdf": {"headline": "'Major' orders (Rs 5,000-10,000 cr) - Dhaka Metro Line 1 systems packages"},
+  "PAM_21102026094637_PressRelease21102026.pdf": {"headline": "'Large' orders (Rs 2,500-5,000 cr) - CPWD (New Delhi) and Andhra Pradesh"},
+  "BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf": {"headline": "Discloses notices received from Department of Telecommunications"},
+  "DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf": {"headline": "Dixon issues guarantee for its unlisted material wholly owned subsidiary"}
+}

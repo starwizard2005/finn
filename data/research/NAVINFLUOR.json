@@ -1,0 +1,84 @@
+{
+  "symbol": "NAVINFLUOR",
+  "generatedAt": "2026-11-09T17:00:00+05:30",
+  "generatedBy": "seed — written during the build from verbatim transcript extracts (same map→reduce method as lib/deep.ts; regenerate with `npm run refresh` + GEMINI_API_KEY)",
+  "sources": [
+    { "label": "Earnings call transcript — Q2 FY27 (Nov 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8208e424-002b-4299-b68d-4bc45311047e.pdf" },
+    { "label": "Earnings call transcript — Q1 FY27 (Aug 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8efd175a-4c8d-467b-aa33-b788176175f2.pdf" },
+    { "label": "Earnings call transcript — Q4 FY26 (May 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1440596d-ed29-441c-b785-0c8dbf3b5dbd.pdf" },
+    { "label": "Earnings call transcript — Q3 FY26 (Feb 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/45e3cf37-1db9-4a21-944f-cf829ff37c84.pdf" }
+  ],
+  "businessSnapshot": [
+    "Fluorochemicals across three businesses: refrigerant gases (HFCs such as R32), inorganic fluorides, and high-value specialty chemicals for agro/pharma.",
+    "A fast-growing CDMO arm (contract development & manufacturing for pharma) with a cGMP-4 facility.",
+    "Long-term partnerships with global majors (e.g. the Chemours project) and new 'advanced materials' capacity."
+  ],
+  "guidance": [
+    { "metric": "EBITDA margin", "target": "~32–33% (±1%) normalised", "said": "Q1 FY27 call", "status": "ahead (34% in Q1 and Q2 FY27)" },
+    { "metric": "CDMO", "target": "USD 100M (order-book visibility)", "said": "Q3 FY26 call", "status": "on track / reached early" },
+    { "metric": "R32 capacity (+15,000 MTPA)", "target": "Commission in Q3 FY27", "said": "Q3 FY26 → Q2 FY27 calls", "status": "on track" },
+    { "metric": "cGMP-4 Phase 2 (₹125 cr)", "target": "Operational by end of Q4 FY27", "said": "Q1 FY27 call", "status": "on track" },
+    { "metric": "Advanced materials capacity", "target": "Commission by Q2 FY28", "said": "Q2 FY27 call", "status": "too early" }
+  ],
+  "promises": [
+    {
+      "topic": "EBITDA margin",
+      "promised": "'Endeavour to do 30%', later ~32–33% ±1%",
+      "when": "Q4 FY26 (May 2026) and Q1 FY27 (Aug 2026) calls",
+      "delivered": "34% in both Q1 and Q2 FY27 (vs 29–32% in the same quarters a year earlier).",
+      "verdict": "beat",
+      "evidence": [
+        { "quote": "we've always maintained that we will endeavor to do 30%.", "source": "Q4 FY26 call (May 2026)" },
+        { "quote": "will be in the range of that 32%, 33%, plus/minus 1% here or there.", "source": "Q1 FY27 call (Aug 2026)" }
+      ]
+    },
+    {
+      "topic": "CDMO USD 100M",
+      "promised": "Reach the USD 100M aspiration",
+      "when": "Q3 FY26 call (Feb 2026)",
+      "delivered": "At 'striking distance' on order-book visibility by Q2 FY27 — earlier than first indicated.",
+      "verdict": "delivered",
+      "evidence": [
+        { "quote": "we are inching closer to our aspirational number of 100 million.", "source": "Q3 FY26 call (Feb 2026)" },
+        { "quote": "we are at the striking distance of our USD 100 million target in terms of order book visibility.", "source": "Q2 FY27 call (Nov 2026)" }
+      ]
+    },
+    {
+      "topic": "R32 HFC expansion",
+      "promised": "15,000 MTPA of R32 commissioned in Q3 FY27",
+      "when": "Repeated on every call since Feb 2026",
+      "delivered": "Still 'on track for commissioning shortly' as of the Q2 FY27 call.",
+      "verdict": "pending",
+      "evidence": [
+        { "quote": "the CAPEX for incremental HFC capacity equivalent up to 15,000 MTPA of R32 is progressing as planned and is expected to be commissioned in Q3 FY27.", "source": "Q3 FY26 call (Feb 2026)" },
+        { "quote": "Our HFC capacity expansion is progressing as planned and remains on track for commissioning shortly.", "source": "Q2 FY27 call (Nov 2026)" }
+      ]
+    },
+    {
+      "topic": "Growth",
+      "promised": "'Strong outlook for the year' after Q1",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "Q2 FY27 revenue ₹1,191 cr (+57% YoY), PAT ₹269 cr (+82% YoY).",
+      "verdict": "delivered",
+      "evidence": [
+        { "quote": "growing 82% year - on - year with strong outlook for the year.", "source": "Q1 FY27 call (Aug 2026)" }
+      ]
+    }
+  ],
+  "narrativeVsNumbers": [
+    "Story and numbers agree: management guided ~30% then ~32–33% margins and has printed 34% for two straight quarters.",
+    "Operating leverage is visible — Q2 FY27 revenue +57% YoY, PAT +82%.",
+    "Cash is catching up with profits: cash conversion cycle fell from 193 days (FY23) to 60 (FY26) and FCF turned clearly positive (₹404 cr) despite heavy capex.",
+    "One soft spot discussed on the Q2 call: a large contract renewal implies a lower annual run-rate (~$45M vs ~$58M before)."
+  ],
+  "bull": [
+    "Margins structurally higher (34%) as specialty and CDMO mix grows; CDMO order book reached ~$100M early.",
+    "Visible volume adds: R32 (Q3 FY27), Dahej MPP debottlenecking, cGMP-4 Phase 2, advanced materials (FY28).",
+    "Balance sheet comfortable (D/E ~0.28×) with capex funded largely from operating cash flow."
+  ],
+  "bear": [
+    "Valuation already rich (~51× P/E) after a near-doubling of profits.",
+    "Refrigerant pricing is cyclical; R32 capacity comes on as the market expands supply.",
+    "Lower run-rate on a renewed large contract and execution risk across many simultaneous projects."
+  ]
+}

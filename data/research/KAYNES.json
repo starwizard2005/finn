@@ -1,0 +1,104 @@
+{
+  "symbol": "KAYNES",
+  "generatedAt": "2026-11-09T17:00:00+05:30",
+  "generatedBy": "seed — written during the build from verbatim transcript extracts (same map→reduce method as lib/deep.ts; regenerate with `npm run refresh` + GEMINI_API_KEY)",
+  "sources": [
+    { "label": "Earnings call transcript — Q1 FY27 (Aug 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e8d82234-f369-467f-a76f-75bb2747aaa1.pdf" },
+    { "label": "Earnings call transcript — Q4 FY26 (May 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c2aa16ac-08ab-430a-819a-833f94c09dde.pdf" },
+    { "label": "Earnings call transcript — Q3 FY26 (Feb 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf" },
+    { "label": "Investor call — Dec 2025", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf" },
+    { "label": "Earnings call transcript — Q2 FY26 (Nov 2025)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/13fd5473-73b9-41c4-a782-70e6608354f9.pdf" }
+  ],
+  "businessSnapshot": [
+    "Integrated electronics manufacturer (EMS) for auto, industrial, rail, aerospace & defence, medical and IoT customers.",
+    "Building two new legs — semiconductor packaging (OSAT) and HDI printed-circuit boards — with ₹797 cr capex in FY26 (₹473 cr OSAT, ₹324 cr PCB).",
+    "Smart-metering (annuity-style receivables) was scaled down after it strained working capital."
+  ],
+  "guidance": [
+    { "metric": "FY27 revenue growth", "target": "~2× EMS market growth (market 16–18%)", "said": "Q1 FY27 call", "status": "ahead (Q1 +41% YoY)" },
+    { "metric": "OSAT + PCB revenue", "target": "₹450–500 cr in FY27, starting Q3", "said": "Q1 FY27 call", "status": "too early" },
+    { "metric": "Receivables (metering)", "target": "Turnaround by end of FY27", "said": "Q1 FY27 call", "status": "behind (debtor days 154)" },
+    { "metric": "Working-capital disclosure", "target": "Rolling 12-month receivables / payables / NWC", "said": "Q1 FY27 call", "status": "on track" }
+  ],
+  "promises": [
+    {
+      "topic": "FY26 revenue",
+      "promised": "₹4,400 cr at the start of FY26, cut to ₹4,100 cr by February",
+      "when": "Q3 FY26 call (Feb 2026)",
+      "delivered": "₹3,626 cr (+33% YoY) — ~18% below the original target. FY25 also missed (₹2,722 cr vs ₹3,000 cr guided).",
+      "verdict": "missed",
+      "evidence": [
+        { "quote": "And in the beginning of the year, we guided at INR 4,400 crores, now we are targeting INR 4,100 crores.", "source": "Q3 FY26 call (Feb 2026)" },
+        { "quote": "we sincerely understand and appreciate that the guidance what we have given, we could not meet.", "source": "Q4 FY26 call (May 2026)" }
+      ]
+    },
+    {
+      "topic": "Operating cash flow",
+      "promised": "Positive operating cash flow and lower net working capital by end of FY26",
+      "when": "Q2 FY26 call (Nov 2025)",
+      "delivered": "FY26 operating cash flow −₹600 cr against PAT of ₹364 cr; free cash flow −₹1,841 cr.",
+      "verdict": "missed",
+      "evidence": [
+        { "quote": "So we will have positive OCF, and we'll have lower net working capital by the end of this year.", "source": "Q2 FY26 call (Nov 2025)" },
+        { "quote": "our main EMS business, we will be cash flow positive this year, whereas the entire company, we will not be able to do that.", "source": "Q4 FY26 call (May 2026)" }
+      ]
+    },
+    {
+      "topic": "Net working capital",
+      "promised": "Net working capital down to 85 days by March 2026",
+      "when": "Q3 FY26 call (Feb 2026)",
+      "delivered": "Working-capital days 133 and debtor days 154 in FY26 (77 a year earlier).",
+      "verdict": "missed",
+      "evidence": [
+        { "quote": "we maintain our guidance of bringing down the net working capital to 85 days by March '26.", "source": "Q3 FY26 call (Feb 2026)" }
+      ]
+    },
+    {
+      "topic": "Legacy receivables",
+      "promised": "Discount ~₹240 cr of annuity receivables and clear legacy dues within ~6 months",
+      "when": "Dec 2025 investor call",
+      "delivered": "~₹200 cr collected in July 2026 (per Q1 FY27 call), but debtor days still doubled in FY26.",
+      "verdict": "partly",
+      "evidence": [
+        { "quote": "So, we are quite confident that INR 240 crores , approximately INR 240 crores of such receivables will anyway get discounted and it'll reduce the amount.", "source": "Dec 2025 call" },
+        { "quote": "though late, we have got about INR200 crores of money in the first week of July", "source": "Q1 FY27 call (Aug 2026)" }
+      ]
+    },
+    {
+      "topic": "FY27 growth",
+      "promised": "Grow at ~2× the EMS market (no absolute revenue number this time)",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "Q1 FY27 revenue ₹946 cr, +41% YoY — on pace so far. Q2 results not yet out.",
+      "verdict": "pending",
+      "evidence": [
+        { "quote": "we are quite confident of achieving the twice the market growth.", "source": "Q1 FY27 call (Aug 2026)" }
+      ]
+    },
+    {
+      "topic": "OSAT + PCB ramp",
+      "promised": "₹450–500 cr combined revenue in FY27, starting Q3",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "Not yet reportable; Q3 FY27 is the first test.",
+      "verdict": "pending",
+      "evidence": [
+        { "quote": "we already told from third quarter the revenue starts in both the business", "source": "Q1 FY27 call (Aug 2026)" }
+      ]
+    }
+  ],
+  "narrativeVsNumbers": [
+    "Growth is real (revenue compounded ~48% a year for 3 years; Q1 FY27 +41%), but guidance was missed two years running and by a widening gap — ₹4.4k cr guided vs ₹3.6k cr delivered in FY26.",
+    "The bigger divergence is cash: management promised positive OCF for FY26; the company burned ₹600 cr from operations while reporting ₹364 cr profit.",
+    "The language has shifted from absolute targets to '2× market growth' and rolling working-capital metrics — harder to hold them to.",
+    "Q1 FY27 PAT fell 25% YoY on 41% revenue growth: depreciation more than doubled (₹16→37 cr) as OSAT/PCB capacity came on, interest rose and the tax rate jumped to 36%."
+  ],
+  "bull": [
+    "OSAT and PCB start contributing from Q3 FY27 (₹450–500 cr guided) with OSAT revenue visibility of ₹2,500 cr over 5 years per management.",
+    "Core growth is still 30–40%, and the capex has been largely equity-funded: debt/equity ~0.19× on a ₹4,700 cr net worth.",
+    "Stock is down ~48% in a year — the market already prices a lot of the credibility damage."
+  ],
+  "bear": [
+    "Two consecutive years of missed guidance and a reversed cash-flow promise: management credibility is the core issue.",
+    "Receivables have ballooned (debtor days 154) and include annuity-style metering dues; further write-downs or discounting costs are possible.",
+    "Component inflation is squeezing gross margins (flagged on the Q1 FY27 call) just as depreciation from new capacity hits the P&L."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "symbol": "PERSISTENT",
+  "generatedAt": "2026-11-09T17:00:00+05:30",
+  "generatedBy": "seed — written during the build from verbatim transcript extracts (same map→reduce method as lib/deep.ts; regenerate with `npm run refresh` + GEMINI_API_KEY)",
+  "sources": [
+    { "label": "Earnings call transcript — Q2 FY27 (Oct 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf" },
+    { "label": "Earnings call + Nagarro acquisition call — Q1 FY27 (Aug 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b1c49752-0908-4750-9177-398a60654630.pdf" },
+    { "label": "Earnings call transcript — Q3 FY26 (Jan 2026)", "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf" }
+  ],
+  "businessSnapshot": [
+    "Mid-tier Indian IT services firm focused on AI-led digital engineering and enterprise modernisation; BFSI and hi-tech lead growth.",
+    "~27,500 people across 21 countries; Salesforce and AWS are key partners.",
+    "Announced the acquisition of Nagarro (Europe-centric digital engineering; ~€1 bn equity value) in Aug 2026, bridge-financed by Barclays."
+  ],
+  "guidance": [
+    { "metric": "Revenue aspiration", "target": "$2 bn by March 2027; $5 bn by FY31", "said": "Q3 FY26 call", "status": "behind — needs ~$530M/qtr in H2 vs $488M in Q2" },
+    { "metric": "EBIT margin", "target": "16–17% (aspiration)", "said": "Q2 FY27 call", "status": "behind (15.0% in Q2 FY27)" },
+    { "metric": "Nagarro EPS", "target": "Cash-EPS accretive from year 1", "said": "Q1 FY27 call", "status": "too early" },
+    { "metric": "Leverage after Nagarro", "target": "Net debt / EBITDA down to ~1× by FY2030", "said": "Q1 FY27 call", "status": "too early" }
+  ],
+  "promises": [
+    {
+      "topic": "Funding the Nagarro deal",
+      "promised": "No QIP — 'just to be clear for everyone'",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "One quarter later: $1.25 bn financing plan including $450M of equity via QIP or equity-linked instruments.",
+      "verdict": "missed",
+      "evidence": [
+        { "quote": "We don't intend doing any QIP, just to be clear for everyone.", "source": "Q1 FY27 call (Aug 2026)" },
+        { "quote": "Out of this, USD 450 million will be raised through equity, qualified institutional placement or equity - linked instruments like FCCB or combination of similar instruments.", "source": "Q2 FY27 call (Oct 2026)" }
+      ]
+    },
+    {
+      "topic": "$2 bn revenue by March 2027",
+      "promised": "'Firmly on track' for $2 bn by March 2027",
+      "when": "Q3 FY26 call (Jan 2026)",
+      "delivered": "Q2 FY27 revenue $487.6M (+20% YoY, +7.8% QoQ). Hitting $2 bn for FY27 needs ~$530M a quarter in H2.",
+      "verdict": "pending",
+      "evidence": [
+        { "quote": "we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027", "source": "Q3 FY26 call (Jan 2026)" },
+        { "quote": "We achieved a healthy revenue growth of 7.8% quarter - on - quarter and 20% year - on - year delivering USD 487.6 million in Q2 FY27.", "source": "Q2 FY27 call (Oct 2026)" }
+      ]
+    },
+    {
+      "topic": "Margins",
+      "promised": "EBIT margin in a 16–17% range",
+      "when": "Q2 FY27 call (Oct 2026)",
+      "delivered": "EBIT 15.0% in Q2 FY27, down 130 bps YoY; reported EBITDA margin 19% → 14% over four quarters.",
+      "verdict": "partly",
+      "evidence": [
+        { "quote": "Sandeep Kalra: Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration.", "source": "Q2 FY27 call (Oct 2026)" },
+        { "quote": "EBIT margins for Q2 FY27 came in at 15%, 130 basis points declined year - on - year.", "source": "Q2 FY27 call (Oct 2026)" }
+      ]
+    },
+    {
+      "topic": "Cash conversion",
+      "promised": "Improve cash flow and service deal debt from internal accruals",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "TTM OCF/PAT improved to 96.6% (from 76.2%); FY26 free cash flow ₹1,572 cr.",
+      "verdict": "delivered",
+      "evidence": [
+        { "quote": "On TTM basis, trailing 12 - months basis, OCF to PAT improved to 96.6% in Q2 FY27 compared to 76.2% in the previous quarter.", "source": "Q2 FY27 call (Oct 2026)" }
+      ]
+    },
+    {
+      "topic": "Nagarro accretion",
+      "promised": "Cash-EPS accretive from year 1; reported EPS positive from year 1 excluding transaction costs",
+      "when": "Q1 FY27 call (Aug 2026)",
+      "delivered": "Deal not yet consolidated. Q2 FY27 already carried deal costs (~3.1% hit to PAT margin).",
+      "verdict": "pending",
+      "evidence": [
+        { "quote": "For Q2 FY27, these expenses impacted the reported PAT margin as well as the reported EPS by around 3.1%.", "source": "Q2 FY27 call (Oct 2026)" }
+      ]
+    }
+  ],
+  "narrativeVsNumbers": [
+    "Top line agrees with the story: revenue +30% YoY in rupees (+20% in USD) in Q2 FY27 — among the fastest in Indian IT.",
+    "Profit does not: EBITDA margin slid from 19% to 14% in four quarters and PAT fell 25% YoY (₹471 → ₹352 cr), partly deal costs, partly tool amortisation and wage hikes.",
+    "The balance sheet is about to change character — from net cash to a €1.4 bn bridge-financed deal plus $1.25 bn of debt and equity.",
+    "The funding narrative reversed inside one quarter (no QIP → $450M equity), so treat integration guidance with care."
+  ],
+  "bull": [
+    "Best-in-class growth (20% USD YoY) with AI-led engineering demand and large-deal ramp-ups.",
+    "Nagarro roughly doubles scale and deepens Europe; management expects cash-EPS accretion from year 1 and margin uplift from Persistent's delivery practices.",
+    "Cash conversion is strong (OCF/PAT ~97% TTM) and ROCE ex-cash ~46% gives room to service deal debt."
+  ],
+  "bear": [
+    "Integrating a large, lower-margin European business while organic margins are already falling.",
+    "Equity dilution ($450M) plus significant leverage; currency and Euribor exposure on the bridge.",
+    "Guidance credibility took a hit on the QIP reversal; the $2 bn FY27 aspiration now needs a steep H2."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "generatedAt": "2026-11-09T17:00:00+05:30",
+ "generatedBy": "seed (captured live from NSE / Yahoo / screener.in / BSE during the build)",
+ "announcementsFrom": "2026-10-20",
+ "sources": [
+  "nseindia.com corporate announcements API",
+  "Yahoo Finance chart API (EOD)",
+  "screener.in company pages",
+  "BSE / NSE filing PDFs"
+ ],
+ "fundamentals": [
+  "RELIANCE",
+  "HDFCBANK",
+  "INFY",
+  "BHARTIARTL",
+  "LT",
+  "TITAN",
+  "SUNPHARMA",
+  "MARUTI",
+  "BAJFINANCE",
+  "ETERNAL",
+  "TRENT",
+  "DIXON",
+  "POLYCAB",
+  "CGPOWER",
+  "DEEPAKNTR",
+  "KAYNES",
+  "NAVINFLUOR",
+  "CREDITACC",
+  "PERSISTENT"
+ ]
+}

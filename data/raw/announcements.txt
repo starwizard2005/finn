@@ -1,0 +1,192 @@
+# NSE corporate announcements, 20-Oct-2026 to 09-Nov-2026, portfolio symbols. Source: nseindia.com/api/corporate-announcements
+# symbol|MM-DD HH:mm|NSE desc|text ("~" = "<Company> has informed the Exchange about")|attachment (nsearchives.nseindia.com/corporate/...)
+TITAN|11-09 15:06|General Updates|~Redemption of Commercial Paper|TITAN_09112026150627_SECPRedemption09112026.pdf
+TITAN|11-09 14:58|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|TITAN_09112026145809_SEintimation_9_Nov_26.pdf
+TRENT|11-09 13:00|Analysts/Institutional Investor Meet/Con. Call Updates|~intimation of schedule of Analyst / Institutional Investors Meetings|TRENT_09112026125235_Investor_Analyst_Meeting_09112026.pdf
+LT|11-09 10:37|Bagging/Receiving of orders/contracts|~Bagging/Receiving of orders/contracts|PAM_09112026103717_PressRelease09112026.pdf
+BAJFINANCE|11-07 16:41|General Updates|~General Updates|BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf
+CGPOWER|11-07 13:49|General Updates|~General Updates|CGPOWER_07112026134853_Disclosure-_High_Court_Stay_order_on_Closure_of_Operations.pdf
+HDFCBANK|11-06 22:27|Shareholders meeting|HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.|HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf
+POLYCAB|11-06 22:03|General Updates|~Analyst(s)/Investor(s) meet.|POLYCAB_06112026220329_Intimationtostockexchange.pdf
+RELIANCE|11-06 19:10|Analysts/Institutional Investor Meet/Con. Call Updates|Please note that the Company executives will be participating in the Institutional Investors' Meeting - CLSA India Forum, scheduled to be held on November 16, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis.|kavinavora_06112026191022_Pre_CLSA_SE_06112026.pdf
+TITAN|11-06 16:56|Copy of Newspaper Publication|Newspaper publication for Unaudited financial results for the second quarter and halfyear ended 30th September 2026|TITAN_06112026165556_SEnewspaperadresultQ2-combined.pdf
+BHARTIARTL|11-06 16:11|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|BHARTIARTL_06112026160637_BhartiAirtelSTXdisclosure.pdf
+LT|11-06 15:36|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|PAM_06112026153645_AnalystMeetIntimation06112026.pdf
+HDFCBANK|11-06 15:21|Change in Management|~change in Management|HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf
+BHARTIARTL|11-06 14:50|Action(s) taken or orders passed|~Action(s) taken or orders passed|BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf
+NAVINFLUOR|11-06 14:25|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|NAVINFLUOR_06112026142511_NFILIntimationofTranscriptofEarningsCallQ2FY27.pdf
+BHARTIARTL|11-06 13:04|General Updates|~Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026|BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf
+TRENT|11-06 10:35|Analysts/Institutional Investor Meet/Con. Call Updates|~Intimation of schedule of Analyst / Institutional Investors Meeting|TRENT_06112026103411_Investor_Analyst_Meeting_06112026.pdf
+TITAN|11-05 20:33|Analysts/Institutional Investor Meet/Con. Call Updates|~Analyst Call Recording|TITAN_05112026203327_SEaudiocallQ227.pdf
+BHARTIARTL|11-05 19:35|Statement of deviation(s) or variation(s) under Reg. 32|~statement of deviation(s) or variation(s) under Reg. 32|BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf
+BHARTIARTL|11-05 19:33|Monitoring Agency Report|Monitoring Agency Report for the quarter ended September 30, 2026|BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf
+TITAN|11-05 18:51|Retirement|~Retirement of Mr. Noel N. Tata as Director and Vice-Chairman|TITAN_05112026185140_SENNTata.pdf
+TITAN|11-05 18:36|Change in Auditors|~Change in Auditors of the company.|TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf
+TITAN|11-05 18:23|General Updates|~Redemption of Commercial Paper|TITAN_05112026182331_SECPRedemption05112026.pdf
+TITAN|11-05 18:02|General Updates|~Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021|TITAN_05112026180204_SECPQ2.pdf
+DIXON|11-05 17:16|Allotment of Securities|~allotment of 37750 securities pursuant to ESOP/ESPS at its meeting held on November 05, 2026|DIXON_05112026171618_Reg30ESOPAllotmentNov.pdf
+TITAN|11-05 17:16|Investor Presentation|~Investor Presentation|TITAN_05112026171559_SEinvestorpreQ227.pdf
+TITAN|11-05 16:50|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|TITAN_05112026165028_SEoutcomeQ227.pdf
+DIXON|11-05 16:36|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf
+BHARTIARTL|11-05 16:25|Updates|~Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.|BHARTIARTL_05112026162542_QR.pdf
+BHARTIARTL|11-05 16:23|Press Release|~a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended September 30, 2026.|BHARTIARTL_05112026162337_PR.pdf
+BHARTIARTL|11-05 16:20|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|BHARTIARTL_05112026162023_FR.pdf
+SUNPHARMA|11-05 15:54|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf
+BHARTIARTL|11-05 14:01|Copy of Newspaper Publication|~Copy of Newspaper Publication.|BHARTIARTL_05112026140108_StxIntimation__2_.pdf
+CGPOWER|11-05 12:35|Action(s) taken or orders passed|~Action(s) taken or orders passed|CGPOWER_05112026123502_Draft_SE_Disclosure-_Closure_of_Operations-051126.pdf
+NAVINFLUOR|11-05 11:55|Copy of Newspaper Publication|Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations|NAVINFLUOR_05112026115449_Binder1signed.pdf
+BHARTIARTL|11-04 21:59|Shareholders meeting|~Notice of Postal Ballot|BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf
+INFY|11-04 21:01|Updates|~'Investor Conference'.|INFY_04112026210117_SE_filing_Investor_conference_04112026_signed.pdf
+RELIANCE|11-04 20:47|Credit Rating|~Credit Rating|PVIVINMA_04112026204646_SE_RIL_041126.pdf
+SUNPHARMA|11-04 19:15|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf
+LT|11-04 18:51|Updates|~Change in Corporate Office Address of Registrar and Share Transfer Agent.|PAM_04112026185041_Intimation04112026.pdf
+BHARTIARTL|11-04 17:03|Updates|~'Updates'.|BHARTIARTL_04112026165700_BhartiAirtelSTXintimation.pdf
+BHARTIARTL|11-04 16:47|Action(s) taken or orders passed|~Action(s) taken or orders passed|BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf
+BHARTIARTL|11-04 15:38|Copy of Newspaper Publication|~Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company.|BHARTIARTL_04112026153131_STXintimation.pdf
+NAVINFLUOR|11-04 15:37|Copy of Newspaper Publication|Newspaper advertisement regarding opening of the Special Window for transfer and dematerialisation (demat) of physical shares|NAVINFLUOR_04112026153739_Binder1signed.pdf
+BAJFINANCE|11-04 15:29|Shareholders meeting|Bajaj Finance Limited has submitted the Exchange a copy Srutinizers report of Extraordinary General Meeting held on November 02, 2026. Further, the company has informed the Exchange regarding voting results.|BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf
+CREDITACC|11-04 11:53|ESOP/ESOS/ESPS|~allotment of 6484 Options.|CREDITACC_04112026115213_CAGL_SE_ESOPAllotment_04112026.pdf
+DEEPAKNTR|11-04 11:15|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|DEEPAKNTR_04112026111452_NSE-concall_transcript.pdf
+SUNPHARMA|11-04 10:04|News Verification|The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is attached.|SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf
+BHARTIARTL|11-03 22:33|General Updates|Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited (Company).|BHARTIARTL_03112026222840_Airtelstx.pdf
+CREDITACC|11-03 17:49|General Updates|~General Updates- Change in the address of RTA Corporate office|CREDITACC_03112026174936_Change_in_RTA_Address.pdf
+DIXON|11-03 17:30|Updates|~'Change in Corporate Office Address of RTA with effect from 01st December 2026'.|DIXON_03112026172946_Regulation30DisclosureRTAAddress.pdf
+CGPOWER|11-03 17:28|ESOP/ESOS/ESPS|~Allotment of 17000 Shares.|CGPOWER_03112026172203_Disclosure_-_ESOP_Allotment-031126.pdf
+POLYCAB|11-03 16:01|ESOP/ESOS/ESPS|~Allotment of 3403 Shares.|POLYCAB_03112026160106_IntimationtoStockexchange.pdf
+DIXON|11-03 11:24|Analysts/Institutional Investor Meet/Con. Call Updates|~Outcome of Analyst or Institutional Investor Meet|DIXON_03112026112356_InvestorMeetOutcome031102026.pdf
+MARUTI|11-02 21:08|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf
+SUNPHARMA|11-02 20:58|Rumour Verification - Regulation 30(11)|Clarification regarding news report relating to the Company's Assam facility|SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf
+KAYNES|11-02 20:37|Acquisition|~Incorporation of wholly owned subsidiary|KAYNESTECH_02112026203640_SEIncorporationKaynesArabia.pdf
+BAJFINANCE|11-02 19:31|Shareholders meeting|~Proceedings of Extraordinary General Meeting held on November 02, 2026|BAJFINANCE_02112026193032_BFLEGMProceedings.pdf
+LT|11-02 17:56|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|PAM_02112026175603_TranscriptSep2026.pdf
+SUNPHARMA|11-02 14:18|News Verification|The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited.|-
+TRENT|11-02 13:26|Copy of Newspaper Publication|~Newspaper Publication on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026|TRENT_02112026132637_Q2FY27_Financial_Results_-_Newspaper_Publication.pdf
+LT|11-02 10:18|Bagging/Receiving of orders/contracts|~Bagging/Receiving of orders/contracts|PAM_02112026101835_PressRelease02112026.pdf
+RELIANCE|11-01 23:09|Analysts/Institutional Investor Meet/Con. Call Updates|Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is attached and also available on the website of the Company.|kavinavora_01112026230907_SE_01112026.pdf
+MARUTI|11-01 14:44|General Updates|~Maruti Suzuki Production Volume: October 2026|MARUTIASHISH_01112026143647_STxIntimation_Prod_Oct2026.pdf
+MARUTI|11-01 13:45|Press Release|~a press release dated November 01, 2026, titled "Maruti Suzuki sales in October 2026".|MARUTIASHISH_01112026133641_StxIntimation_Sales_Oct2026.pdf
+HDFCBANK|10-31 22:16|Change in Management|~change in Management|HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf
+SUNPHARMA|10-31 20:14|General Updates|Completion and Results of Postal Ballot dated 01 October 2026|SUNSEC_31102026201341_SEIntimationforVR_-_31_October_2026.pdf
+DIXON|10-31 19:32|Copy of Newspaper Publication|~copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026|DIXON_31102026192630_NewspaperAdvertisement31101026.pdf
+RELIANCE|10-31 17:34|Analysts/Institutional Investor Meet/Con. Call Updates|Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.|kavinavora_31102026173331_SE_31102026_AR.pdf
+SUNPHARMA|10-31 17:32|Copy of Newspaper Publication|~Copy of Newspaper Publication|SUNSEC_31102026173121_SEIntimationforFinancialResultsNewspaperadvertisement.pdf
+LT|10-31 13:00|General Updates|Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion|AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf
+NAVINFLUOR|10-31 11:36|Copy of Newspaper Publication|~Copy of Newspaper Publication|NAVINFLUOR_31102026113542_NFILintimationnewspaperadvtfinancialresultsQ2FY27.pdf
+BHARTIARTL|10-30 22:40|Action(s) taken or orders passed|~Action(s) taken or orders passed|BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf
+DIXON|10-30 20:32|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf
+NAVINFLUOR|10-30 20:19|Analysts/Institutional Investor Meet/Con. Call Updates|Pursuant to Regulation 30 read with Schedule III of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, this is to inform you that the audio recording of the Company's Earnings Call held today i.e. on October 30, 2026, regarding discussion on operational and financial performance for the quarter a|NAVINFLUOR_30102026201917_NFILIntimationofAuditRecordingofEarningsCallQ2FY27.pdf
+SUNPHARMA|10-30 20:13|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|SUNPHARMA456_30102026201207_IntimationSE20261030_Q2FY27_Call_Recording_Signed.pdf
+RELIANCE|10-30 19:47|Investor Presentation|~Investor Presentation|kavinavora_30102026194557_SE_30102026_IP.pdf
+RELIANCE|10-30 19:43|Press Release|In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company.|kavinavora_30102026194315_SE_30102026_MR.pdf
+RELIANCE|10-30 19:40|Outcome of Board Meeting|In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia: 1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and 2. passed an enabling re|kavinavora_30102026193952_SE_30102026_Results.pdf
+INFY|10-30 18:50|Updates|~'Infosys Announces Expansion of Pocharam Development Center in Hyderabad'.|INFY_30102026185037_PR_30102026.pdf
+DEEPAKNTR|10-30 18:46|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|DEEPAKNTR_30102026184526_NSE-CONCALL-AUDIO_RECORDING-882024.pdf
+NAVINFLUOR|10-30 18:31|Updates|Communication to Shareholders - Intimation regarding Tax Deduction on Dividend|NAVINFLUOR_30102026183019_Intimation.pdf
+DIXON|10-30 16:19|Investor Presentation|~Investor Presentation|DIXON_30102026161836_OutcomewithPPT30102026.pdf
+DIXON|10-30 16:10|Change in Management|~change in Management|DIXON_30102026160939_Outcome30102026.pdf
+DIXON|10-30 16:07|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|DIXON_30102026160547_Outcome30102026.pdf
+NAVINFLUOR|10-30 16:01|Investor Presentation|~Investor Presentation|NAVINFLUOR_30102026160134_NFILIntimationofEarningsCallQ2FY27.pdf
+BHARTIARTL|10-30 15:23|Copy of Newspaper Publication|~Copy of Newspaper Publication|BHARTIARTL_30102026152337_STXintimationOctober302026.pdf
+SUNPHARMA|10-30 15:18|General Updates|Appointment of Statutory Auditors Pursuant to Mandatory Auditor Rotation|SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf
+NAVINFLUOR|10-30 15:02|Record Date|~that Record date for the purpose of Dividend is 05-Nov-2026.|NAVINFLUOR_30102026150037_Intimation_of_Record_Date_for_Interim_Dividend_FY26.pdf
+BAJFINANCE|10-30 14:53|Allotment of Securities|~allotment of 2,06,950 securities pursuant to Non Convertible Securities at its meeting held on October 30, 2026|BAJFINANCE_30102026145301_REG30_Allotment_intimation.pdf
+NAVINFLUOR|10-30 14:51|Dividend|~that Board of Directors at its meeting held on October 30, 2026, declared Interim Dividend of Rs. 8 per equity share.|NAVINFLUOR_30102026145117_NFILoutcome2026signed.pdf
+NAVINFLUOR|10-30 14:50|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|NAVINFLUOR_30102026144801_NFILoutcome2026signed.pdf
+SUNPHARMA|10-30 14:15|Outcome of Board Meeting|Unaudited Financial Results for the quarter and half year ended 30 September 2026|SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf
+HDFCBANK|10-30 13:24|ESOP/ESOS/ESPS|~Allotment of 4675598 Shares.|HDFCBANK_30102026132409_SELetterESOP30102026.pdf
+POLYCAB|10-30 12:20|Corporate Insolvency Resolution Process|~the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026|POLYCAB_30102026121954_SECIRP30102026.pdf
+SUNPHARMA|10-30 08:05|Press Release|~a press release dated October 30, 2026, titled "ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis".|SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf
+DEEPAKNTR|10-29 22:14|General Updates|~General Updates- Q2 & H1 FY2027 Results Presentation|DEEPAKNTR_29102026221311_DNL_-_Q2_FY27_Results_Presentation_V2.pdf
+CGPOWER|10-29 19:39|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|CGPOWER_29102026193918_Transcript_InvestorCall_BoardMeeting_Q2_2026_27.pdf
+DEEPAKNTR|10-29 18:41|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|DEEPAKNTR_29102026183918_NSE-29-10-2026-bm-ufr.pdf
+TRENT|10-29 16:32|Appointment|~Appointment of Mrs Kalpana Merchant as Non- Executive Independent Director of the company w.e.f. October 30, 2026.|TRENT_29102026163140_AppointmentofDirector.pdf
+TRENT|10-29 16:32|Change in Director(s)|~Change in Director(s) of the company.|TRENT_29102026163102_AppointmentofDirector.pdf
+TRENT|10-29 16:32|Appointment|~Appointment of Mr Rajiv Dube as Non- Executive Director of the company w.e.f. October 30, 2026.|TRENT_29102026163044_AppointmentofDirector.pdf
+TRENT|10-29 16:32|Retirement|~Retirement of Mr. Noel N Tata as the Chairman|TRENT_29102026163122_AppointmentofDirector.pdf
+TRENT|10-29 16:21|Press Release|~a press release dated October 29, 2026, titled "Press Release on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026".|TRENT_29102026162053_PressReleaseOct2026.pdf
+TRENT|10-29 16:17|Investor Presentation|~Investor Presentation|TRENT_29102026161637_InvestorPresentationQ2FY27.pdf
+TRENT|10-29 16:08|Outcome of Board Meeting|~Outcome of Board Meeting held today i.e. 29th October 2026|TRENT_29102026160446_DraftOutcomeofBM.pdf
+INFY|10-29 15:15|Copy of Newspaper Publication|~Copy of Newspaper Publication|INFY_29102026151445_SE_intimation_Newspaper_ad_2.pdf
+INFY|10-29 15:05|Updates|~'Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced'.|INFY_29102026150417_PR_29102026.pdf
+BHARTIARTL|10-29 13:42|Action(s) taken or orders passed|~Action(s) taken or orders passed|BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf
+CGPOWER|10-29 12:23|Press Release|~a press release dated October 29, 2026, titled "Axiro Semiconductor Invests in ThinSiC to Strengthen Position in Next-Generation Silicon Carbide Power Semiconductors".|CGPOWER_29102026122240_SE_Disclosure-Press_Release-Axiro-Investment_in_ThinSic.pdf
+MARUTI|10-29 10:50|Press Release|~a press release dated October 29, 2026, titled "Maruti Suzuki, India's No. 1 Electric Vehicle exporter, crosses EV exports of 50,000 units".|MARUTI_29102026104658_StxIntimation_EVExports.pdf
+RELIANCE|10-29 08:55|Other Restructuring|Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited|kavinavora_29102026084603_SE_29102026.pdf
+NAVINFLUOR|10-29 00:13|General Updates|~General Updates|NAVINFLUOR_29102026001243_uploadsigned.pdf
+LT|10-28 19:47|Copy of Newspaper Publication|~Copy of Newspaper Publication|PAM_28102026194657_NewspaperAdvtSep2026.pdf
+BHARTIARTL|10-28 19:09|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet.|BHARTIARTL_28102026185916_AirtelSTXEarningCallIntimation.pdf
+NAVINFLUOR|10-28 17:54|ESOP/ESOS/ESPS|~Allotment of 23500 Shares.|NAVINFLUOR_28102026175417_ESOPIntimationOCTOBER_2026.pdf
+POLYCAB|10-28 17:43|General Updates|~Analyst(s)/Investor(s) meet.|POLYCAB_28102026174326_Intimationtostockexchange.pdf
+INFY|10-28 17:38|Updates|~'Earnings Call Transcript'.|Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf
+INFY|10-28 17:31|Updates|~'Canada's UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker'.|Infosys_28102026173120_PR_28102026.pdf
+TITAN|10-28 17:26|Copy of Newspaper Publication|~Copy of Newspaper Publication|TITAN_28102026172546_SEnewspaperadlossofshares.pdf
+TITAN|10-28 13:49|Acquisition|~the Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary.|TITAN_28102026134838_SEIntimation_-_Canada_Incorporation.pdf
+MARUTI|10-28 10:38|Copy of Newspaper Publication|~Copy of Newspaper Publication|MARUTI_28102026103729_STxIntimation_NP_27Oct2026.pdf
+POLYCAB|10-28 10:24|Corporate Insolvency Resolution Process|~on the update of NCLAT order dated October 27, 2026|POLYCAB_28102026102430_StockExchangeintimation27102026.pdf
+INFY|10-27 22:53|Updates|~'Investor Conference'.|Infosys_27102026225301_SE_filing_Investor_Conference_27102026.pdf
+LT|10-27 22:13|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|PAM_27102026221257_Intimation27102026.pdf
+RELIANCE|10-27 22:11|General Updates|Trading in equity shares of Jio Platforms Limited (JPL) will commence from October 28, 2026. Further, a meeting of board of directors of JPL is scheduled to be held on Friday, October 30, 2026, inter alia, to consider and approve the standalone and consolidated unaudited financial results of JPL for the quarter and half|kavinavora_27102026220855_RIL_SELETTER_271026.pdf
+MARUTI|10-27 20:30|General Updates|~Audio Recording of the investors' call held on 27th October 2026.|MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf
+RELIANCE|10-27 19:17|Analysts/Institutional Investor Meet/Con. Call Updates|The meeting of the Board of Directors of the Company is scheduled on October 30, 2026, inter alia, to consider and approve a. the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2026; and b. raising of funds by way of issuance of listed, secured /|kavinavora_27102026191700_SE_27102026.pdf
+POLYCAB|10-27 19:04|General Updates|~Analyst(s)/Investor(s) meet.|POLYCAB_27102026190410_Intimationtostockexchange.pdf
+POLYCAB|10-27 18:42|Certificate under SEBI (Depositories and Participants) Regulations, 2018|~Certificate under SEBI (Depositories and Participants) Regulations, 2018|POLYCAB_27102026184209_IntimationtoStockExchange.pdf
+LT|10-27 18:37|Updates|~'Analyst Presentation - Q2 / H1 FY27'.|PAM_27102026183653_AnalystPresentationSep2026.pdf
+LT|10-27 17:13|Outcome of Board Meeting|~, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.|PAM_27102026171156_LTSep2026.pdf
+ETERNAL|10-27 16:52|Analysts/Institutional Investor Meet/Con. Call Updates|Eternal Limited has filed with exchange transcript of earnings conference call conducted on October 21, 2026.|ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf
+INFY|10-27 16:38|Updates|~'Infosys Successfully Delivers Syngenta's Global SAP S/4HANA Transformation for Crop Protection Business'.|Infosys_27102026163727_PR_27102026.pdf
+MARUTI|10-27 15:44|Investor Presentation|~Investor Presentation|MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf
+MARUTI|10-27 15:39|Press Release|~a press release dated October 27, 2026, titled "Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2026-27".|MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf
+MARUTI|10-27 15:27|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf
+LT|10-27 13:29|Allotment of Securities|~allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026|PAM_27102026132854_ESOPAllotment27102026.pdf
+MARUTI|10-27 13:18|Acquisition|~Incorporation of Wholly Owned Subsidiary|MARUTI_27102026131704_Letter_to_Exchange.pdf
+LT|10-27 10:16|Bagging/Receiving of orders/contracts|~Bagging/Receiving of orders/contracts|PAM_27102026101631_PressRelease27102026.pdf
+HDFCBANK|10-27 08:02|General Updates|~disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank|HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf
+BAJFINANCE|10-26 19:26|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|BAJFINANCE_26102026192457_BSENSE_Intimation_Investor_meet.pdf
+BHARTIARTL|10-26 19:01|Certificate under SEBI (Depositories and Participants) Regulations, 2018|~Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018 for the period from July 01, 2026 to September 30, 2026.|BHARTIARTL_26102026190028_BhartiAirtelReg74_5_disclosure.pdf
+CGPOWER|10-26 18:48|General Updates|~General Updates|CGPOWER_26102026184729_Disclosure_RDSO_Approval_signed.pdf
+CREDITACC|10-26 12:55|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript of the Conference Call for Q2 FY27 Results|CREDITACC_26102026125458_Transcript.pdf
+SUNPHARMA|10-26 12:30|Allotment of Securities|~allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on October 26, 2026|SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf
+HDFCBANK|10-24 22:27|ESOP/ESOS/ESPS|~Grant of 1302379 Options.|HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf
+RELIANCE|10-24 21:48|General Updates|Initial Public Offer of Jio Platforms Limited|PVIVINMA_24102026214355_RIL_SE_241026.pdf
+INFY|10-24 19:43|Copy of Newspaper Publication|~Copy of Newspaper Publication|Infosys_24102026194244_Financials_newspaper_ad_SE_filing.pdf
+MARUTI|10-24 10:25|Press Release|~a press release dated October 24, 2026, titled "Maruti Suzuki VICTORIS AURUM Edition Launched to Celebrate 1 Year of Record Sales Success".|MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf
+HDFCBANK|10-23 22:50|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf
+INFY|10-23 20:07|Updates|~'Report of auditors on financial statements for the quarter and half year ended September 30, 2026 with UDIN'.|Infosys_23102026200652_SE_filing_Auditors_report_with_UDIN.pdf
+TITAN|10-23 19:58|Analysts/Institutional Investor Meet/Con. Call Updates|~Earnings call for Q2 and half year ended FY 2026-27|TITAN_23102026195704_SEQ2FY27EarningCall.pdf
+TRENT|10-23 19:48|Sale or disposal|~Nahar Retail Trading Services Limited (Nahar), a wholly owned subsidiary of the Company, has entered into a binding term sheet dated 22nd October 2026 with TreBits Investment Trust, a Small and Medium Real Estate Investment Trust registered with the Securities and Exchang|TRENT_23102026194710_Reg30DivestmentofstepdownsubsidiaryofNahar.pdf
+CGPOWER|10-23 19:06|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|CGPOWER_23102026190537_IntimationofRecording_InvestorCall_Q2_2026_27.pdf
+DIXON|10-23 18:10|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|DIXON_23102026181003_Q2ResultsConferenceCallIntimation30102026.pdf
+SUNPHARMA|10-23 18:01|Press Release|~a press release dated October 23, 2026.|SUNSEC_23102026180028_SE_Intimation_of_Press_Release_-_ESMO.pdf
+CGPOWER|10-23 16:44|Monitoring Agency Report|Monitoring Agency Report for the quarter ended 30th September 2026|CGPOWER_23102026164358_SEDisclosureMonitoringAgencyReport.pdf
+TRENT|10-23 16:34|General Updates|~Reminder letter for transfer of equity shares to the Investor Education and Protection Fund (IEPF)|TRENT_23102026163319_Reg30Reminderlettertoshareholder2026.pdf
+INFY|10-23 16:10|Record Date|~that Record date for the purpose of Dividend is 03-Nov-2026.|Infosys_23102026160926_BM_Outcome_Oct232026_1.pdf
+INFY|10-23 16:08|Outcome of Board Meeting|~, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend|Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf
+CGPOWER|10-23 15:13|Statement of deviation(s) or variation(s) under Reg. 32|~statement of deviation(s) or variation(s) under Reg. 32|CGPOWER_23102026151236_SEDisclosure_StatementofDeviation.pdf
+CGPOWER|10-23 14:54|Press Release|~a press release dated October 23, 2026, titled "Press Release- Q2 FY 2026-27 - Financial Results".|CGPOWER_23102026145423_SEDisclosure_PressRelease.pdf
+BAJFINANCE|10-23 14:53|Analysts/Institutional Investor Meet/Con. Call Updates|~Transcript|BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf
+POLYCAB|10-23 14:34|General Updates|~Analyst(s)/Investor(s) meet.|POLYCAB_23102026143418_Intimationtostockexchange.pdf
+CGPOWER|10-23 14:30|Outcome of Board Meeting|~Outcome of Board Meeting held on October 23, 2026.|CGPOWER_23102026143024_OutcomeoftheBoardMeeting23102026.pdf
+CREDITACC|10-23 14:30|Copy of Newspaper Publication|~Copy of Newspaper Publication|CREDITACC_23102026143003_NewspaperAdvertisement.pdf
+CGPOWER|10-23 14:28|Change in Management|~change in Management|CGPOWER_23102026142822_OutcomeoftheBoardMeeting23102026.pdf
+CGPOWER|10-23 14:27|Capacity addition|~Capacity addition|CGPOWER_23102026142708_OutcomeoftheBoardMeeting23102026.pdf
+CGPOWER|10-23 14:26|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|CGPOWER_23102026142554_OutcomeoftheBoardMeeting23102026.pdf
+CREDITACC|10-22 21:59|Analysts/Institutional Investor Meet/Con. Call Updates|~Link of Recording|CREDITACC_22102026215943_CAGL_InvestorCallOutcome_CallRecording_1.pdf
+CREDITACC|10-22 18:57|Change in Auditors|~Change in Auditors of the company.|CREDITACC_22102026185643_Outcome.pdf
+CREDITACC|10-22 18:00|Press Release|~a press release dated October 22, 2026, titled "Press Release".|CREDITACC_22102026180007_Press_Release.pdf
+CREDITACC|10-22 17:51|Investor Presentation|~Investor Presentation|CREDITACC_22102026175057_Presentation.pdf
+CREDITACC|10-22 17:36|Outcome of Board Meeting|~, the financial results for the period ended September 30, 2026.|CREDITACC_22102026173506_Outcome.pdf
+HDFCBANK|10-22 13:57|ESOP/ESOS/ESPS|~Allotment of 9138522 Shares.|HDFCBANK_22102026135701_SELetterESOP22102026.pdf
+HDFCBANK|10-22 11:55|Copy of Newspaper Publication|~Copy of Newspaper Publication|HDFCBANK3_22102026115451_PB_adv_22102026.pdf
+RELIANCE|10-21 22:44|Updates|Please find attached a media statement issued by the Company.|kavinavora_21102026224413_SE_21102026.pdf
+RELIANCE|10-21 20:43|Credit Rating|~Credit Rating|PVIVINMA_21102026204310_SE_ICRA.pdf
+DIXON|10-21 18:41|Updates|~'Giving of guarantees or indemnity or becoming a surety for any third party'.|DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf
+ETERNAL|10-21 17:35|Monitoring Agency Report|Eternal Limited has filed with exchange monitoring agency report for quarter ended September 30, 2026.|ZOMATO_21102026173358_SignedMALletter.pdf
+MARUTI|10-21 15:39|Analysts/Institutional Investor Meet/Con. Call Updates|~Schedule of meet|MARUTIASHISH_21102026153744_STxIntimation_EarningsCall_27Oct2026.pdf
+ETERNAL|10-21 15:33|Sale or disposal|Eternal Limited has informed exchange regarding proposed restructuring, acquisition and divestment.|ZOMATO_21102026153325_OutcomeSIGNED.pdf
+ETERNAL|10-21 15:25|General Updates|Eternal Limited has filed with exchange copy of shareholders letter dated October 21, 2026.|ZOMATO_21102026152512_SHLsigned.pdf
+ETERNAL|10-21 15:22|Outcome of Board Meeting|Outcome of board meeting dated October 21, 2026.|ZOMATO_21102026152051_OutcomeSIGNED.pdf
+BAJFINANCE|10-21 12:29|Allotment of Securities|~allotment of 2,12,000 securities pursuant to Non Convertible Securities at its meeting held on October 21, 2026|BAJFINANCE_21102026122914_REG30_Allotment_intimation.pdf
+HDFCBANK|10-21 11:52|Shareholders meeting|~Notice of Postal Ballot|HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf
+CREDITACC|10-21 10:45|ESOP/ESOS/ESPS|~Allotment of 14575 Shares.|CREDITACC_21102026104528_CAGL_SE_ESOPAllotment_20102026.pdf
+LT|10-21 09:46|Bagging/Receiving of orders/contracts|~Bagging/Receiving of orders/contracts|PAM_21102026094637_PressRelease21102026.pdf
+SUNPHARMA|10-20 17:35|Press Release|~a press release dated October 20, 2026.|SUNSEC_20102026173321_SE_Intimation_of_Press_Release_on_NCCN_Gudelines_Update.pdf
