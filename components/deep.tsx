@@ -20,9 +20,15 @@ export function DeepPanel({ symbol, seeded }: { symbol: string; seeded: DeepAnal
     setState("loading");
     try {
       const r = await fetch(`/api/deep/${symbol}`);
-      const j = await r.json();
+      const raw = await r.text();
+      let j: { error?: string } & Partial<DeepAnalysis>;
+      try {
+        j = JSON.parse(raw);
+      } catch {
+        throw new Error(r.status === 504 ? "The server ran out of time reading the transcripts. Try again in a minute; results are cached once they succeed." : `Server error ${r.status}: ${raw.slice(0, 120)}`);
+      }
       if (!r.ok) throw new Error(j.error ?? `HTTP ${r.status}`);
-      setDeep(j);
+      setDeep(j as DeepAnalysis);
       setState("idle");
     } catch (e) {
       setErr((e as Error).message);

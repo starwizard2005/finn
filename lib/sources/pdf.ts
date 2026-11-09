@@ -1,9 +1,9 @@
 /** Fetch a filing / transcript PDF and extract its text (no LLM involved). */
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36";
 
-export async function pdfText(url: string, maxPages = 60): Promise<string> {
+export async function pdfText(url: string, maxPages = 60, timeoutMs = 20000): Promise<string> {
   const referer = url.includes("bseindia") ? "https://www.bseindia.com/" : url.includes("nseindia") ? "https://www.nseindia.com/" : undefined;
-  const res = await fetch(url, { headers: { "user-agent": UA, ...(referer ? { referer } : {}) } });
+  const res = await fetch(url, { headers: { "user-agent": UA, accept: "application/pdf,*/*", ...(referer ? { referer } : {}) }, signal: AbortSignal.timeout(timeoutMs) });
   if (!res.ok) throw new Error(`PDF ${res.status}: ${url}`);
   const buf = new Uint8Array(await res.arrayBuffer());
   const { extractText, getDocumentProxy } = await import("unpdf");

@@ -4,7 +4,7 @@ import { hasKey } from "@/lib/llm";
 import { getFundamentals, seededDeep } from "@/lib/server";
 import { fetchScreener } from "@/lib/sources/screener";
 
-export const maxDuration = 60;
+export const maxDuration = 120;
 
 /** GET /api/deep/KAYNES — promised-vs-delivered. Cached at the CDN for a day (one model run per company per day). */
 export async function GET(_: Request, { params }: { params: Promise<{ symbol: string }> }) {

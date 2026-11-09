@@ -33,7 +33,7 @@ const hash = (s: string) => {
   return (h >>> 0).toString(36);
 };
 
-export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt: string; parts?: Part[]; maxTokens?: number; temperature?: number }): Promise<LlmResult<T>> {
+export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt: string; parts?: Part[]; maxTokens?: number; temperature?: number; timeoutMs?: number }): Promise<LlmResult<T>> {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error("GEMINI_API_KEY not set");
   const ck = hash(`${opts.tier}|${opts.system}|${opts.prompt}`);
@@ -46,6 +46,7 @@ export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
         method: "POST",
         headers: { "content-type": "application/json", "x-goog-api-key": key },
+        signal: AbortSignal.timeout(opts.timeoutMs ?? 40000),
         body: JSON.stringify({
           systemInstruction: { parts: [{ text: opts.system }] },
           contents: [{ role: "user", parts: [...(opts.parts ?? []), { text: opts.prompt }] }],
@@ -56,6 +57,7 @@ export async function generateJSON<T>(opts: { tier: Tier; system: string; prompt
           },
         }),
       });
+      if (res.status === 401 || res.status === 403) throw new Error(`Gemini rejected the API key (${res.status}). Check GEMINI_API_KEY. ${(await res.text()).slice(0, 160)}`);
       if (res.status === 404 || res.status === 400) {
         lastErr = new Error(`${model}: ${res.status} ${(await res.text()).slice(0, 200)}`);
         break; // try next model

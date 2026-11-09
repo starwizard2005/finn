@@ -30,17 +30,19 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
   if (!calls.length) throw new Error("No earnings-call transcripts listed for this company");
 
   // 1. Code: fetch + extract text + pre-filter (no tokens spent)
+  const errs: string[] = [];
   const texts = await Promise.all(
     calls.map(async (c) => {
       try {
-        return { period: c.period, url: c.transcript!, text: await pdfText(c.transcript!) };
-      } catch {
+        return { period: c.period, url: c.transcript!, text: await pdfText(c.transcript!, 60, 15000) };
+      } catch (e) {
+        errs.push(`${c.period}: ${(e as Error).message}`);
         return null;
       }
     }),
   );
   const got = texts.filter((x): x is NonNullable<typeof x> => !!x && x.text.length > 2000);
-  if (!got.length) throw new Error("Could not download any transcript");
+  if (!got.length) throw new Error(`Step 1 (download transcripts from BSE) failed: ${errs.join("; ").slice(0, 300) || "PDFs had no text"}`);
 
   // 2. FAST model, map step: one call per transcript
   const commitments = (
@@ -48,6 +50,7 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
       got.map(async (t) => {
         const sentences = forwardLooking(t.text, 70);
         const r = await generateJSON<{ commitments: Commitment[] }>({
+          timeoutMs: 25000,
           tier: "fast",
           system: MAP_SYSTEM,
           prompt: `Company: ${f.name}. Call: ${t.period}.\nSentences:\n${sentences.map((s, i) => `${i + 1}. ${s}`).join("\n")}\n\nReturn JSON {"commitments":[{"topic":"revenue|margin|working capital|cash flow|capex|order book|debt|segment|other","quote":"verbatim sentence or clause","metric":"...","target":"...","horizon":"e.g. FY27 / by Mar-26"}]} with at most 8 items, most material first.`,
@@ -72,6 +75,7 @@ export async function deepAnalysis(f: Fundamentals): Promise<DeepAnalysis> {
   ].join("\n");
 
   const r = await generateJSON<Omit<DeepAnalysis, "symbol" | "generatedAt" | "generatedBy" | "sources">>({
+    timeoutMs: 45000,
     tier: "smart",
     system: REDUCE_SYSTEM,
     prompt: `Company: ${f.name} (${f.symbol}). About: ${f.about}
