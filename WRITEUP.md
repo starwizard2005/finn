@@ -1,6 +1,6 @@
 # FINN: covering note
 
-**Prototype:** <DEPLOYED_URL> (open on a phone, or at phone width) · **Repo:** <GITHUB_URL> · **AI build history:** <SESSION_SHARE_LINK(S)>
+**Prototype:** (https://finn-blond.vercel.app) (open on a phone, or at phone width) · **Repo:** https://github.com/starwizard2005/finn · **AI build history:** <SESSION_SHARE_LINK(S)>
 
 ## What I built
 
