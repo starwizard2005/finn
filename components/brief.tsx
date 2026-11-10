@@ -33,6 +33,8 @@ export function Brief() {
   const notable = d.events.filter((e) => e.lead.tier === "notable");
   const routine = d.events.filter((e) => e.lead.tier === "routine");
   const top = critical.slice(0, 5);
+  // Critical events beyond the top five are not dropped: they lead the "Also worth a look" list.
+  const rest = [...critical.slice(5), ...notable];
   const shown = new Set(d.events.map((e) => e.lead.id));
   const carry = (week?.events ?? []).filter((e) => e.lead.tier === "critical" && !shown.has(e.lead.id)).slice(0, 3);
   const nudge = keepWarm(d.events.concat(week?.events ?? []).map((e) => e.lead))[0];
@@ -55,7 +57,11 @@ export function Brief() {
         </div>
         <p className="mt-5 text-[13px] text-ink-3">As of {istTime(NOW)} IST, after the close</p>
         <h1 className="display rise mt-1 text-[38px] font-[680] leading-[1.02]">
-          {top.length === 0 ? `Nothing critical ${W.since}.` : `${WORDS[Math.min(top.length, 5)]} ${top.length === 1 ? "matters" : "matter"} ${W.since}.`}
+          {top.length === 0
+            ? `Nothing critical ${W.since}.`
+            : critical.length > 5
+              ? `${critical.length} critical events ${W.since}. Start with these five.`
+              : `${WORDS[top.length]} ${top.length === 1 ? "matters" : "matter"} ${W.since}.`}
         </h1>
         <p className="mt-2 text-[15px] text-ink-2">
           {d.total} filings across your 18 holdings, folded into {d.events.length} events. {routineCount > 0 && `${routineCount} are routine paperwork, tucked away at the bottom.`}
@@ -91,15 +97,14 @@ export function Brief() {
 
       <Moves moves={d.moves} pricePct={th.pricePct} volumeX={th.volumeX} />
 
-      {notable.length > 0 && (
+      {rest.length > 0 && (
         <section className="px-5 pt-7">
-          <h2 className="display mb-3 text-[19px] font-[650]">Also worth a look</h2>
+          <h2 className="display mb-3 text-[19px] font-[650]">{critical.length > 5 ? "The rest, most important first" : "Also worth a look"}</h2>
           <div className="space-y-2">
-            {notable.slice(0, 12).map((e) => (
+            {rest.map((e) => (
               <EventRow key={e.key} e={e} />
             ))}
           </div>
-          {notable.length > 12 && <p className="mt-2 text-[13px] text-ink-3">+{notable.length - 12} more lower down the list</p>}
         </section>
       )}
 

@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useMemo, useState } from "react";
 import { Delta, Sparkline, Wordmark } from "@/components/ui";
-import { hrefFor, planRules, type Plan } from "@/lib/ask";
+import { hrefFor, METRICS, planRules, type Metric, type Plan } from "@/lib/ask";
+import { screen } from "@/lib/screen";
 import { COMPANIES } from "@/lib/companies";
 import { priceOf } from "@/lib/data";
 
@@ -14,9 +15,47 @@ const SUGGESTIONS = [
   "Who knows specialty chemicals?",
   "Who should I call about CG Power?",
   "TATAELXSI cash quality",
+  "Which of my holdings has the weakest cash conversion?",
 ];
 
+function Screen({ metric }: { metric: Metric }) {
+  const { rows, lowerIsWorse, skipped } = useMemo(() => screen(metric), [metric]);
+  return (
+    <section className="px-5 pt-4">
+      <h2 className="display text-[19px] font-[650]">{METRICS[metric].label}</h2>
+      <p className="mb-3 text-[14px] text-ink-2">
+        Your holdings, {lowerIsWorse ? "weakest" : "most indebted"} first. Computed from reported financials.
+        {skipped.length > 0 && ` Lenders (${skipped.join(", ")}) are left out: this measure doesn't apply to them.`}
+      </p>
+      <div className="divide-y divide-line rounded-[14px] border border-line bg-sheet">
+        {rows.map((r, i) => (
+          <Link key={r.symbol} href={`/company/${r.symbol}`} className="flex items-center justify-between px-4 py-2.5">
+            <span className="text-[15px]">
+              <span className="num mr-2 text-ink-3">{i + 1}</span>
+              {r.name}
+            </span>
+            <span className="num text-right text-[15px] font-semibold">
+              {r.display}
+              {r.note && <span className="block text-[11px] font-normal text-ink-3">{r.note}</span>}
+            </span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function AskPage() {
+  return (
+    <Suspense>
+      <Ask />
+    </Suspense>
+  );
+}
+
+function Ask() {
+  const params = useSearchParams();
+  const metric = params.get("screen") as Metric | null;
   const [q, setQ] = useState("");
   const [plan, setPlan] = useState<Plan | null>(null);
   const [busy, setBusy] = useState(false);
@@ -83,6 +122,8 @@ export default function AskPage() {
         )}
         {miss && <p className="mt-2 text-[14px] text-loss">Try a company name, an NSE symbol, a person, or a theme like &ldquo;rural lending&rdquo;.</p>}
       </form>
+
+      {metric && METRICS[metric] && <Screen metric={metric} />}
 
       <section className="px-5 pt-3">
         <div className="flex flex-wrap gap-2">

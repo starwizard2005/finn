@@ -19,7 +19,18 @@ export type Step =
   | { tool: "who_can_help"; symbol: string }
   | { tool: "experts"; theme: string }
   | { tool: "reach"; personId: string }
-  | { tool: "digest"; hours: number };
+  | { tool: "digest"; hours: number }
+  | { tool: "screen"; metric: Metric };
+
+/** Portfolio-wide screens: rank every holding on one number computed from reported financials. */
+export type Metric = "cash_conversion" | "leverage" | "revenue_growth" | "profit_growth" | "margin_change";
+export const METRICS: Record<Metric, { label: string; re: RegExp }> = {
+  cash_conversion: { label: "Cash conversion (5-yr operating cash flow ÷ profit)", re: /cash (conversion|flow|generation)|cash.*profit|converts? .*cash|quality of earnings/i },
+  leverage: { label: "Debt to equity", re: /debt|leverage|borrow|geared/i },
+  revenue_growth: { label: "Revenue growth, latest quarter YoY", re: /revenue|sales|top.?line|grow/i },
+  profit_growth: { label: "Profit growth, latest quarter YoY", re: /profit|earnings|pat\b|bottom.?line/i },
+  margin_change: { label: "EBITDA margin change, latest quarter YoY", re: /margin/i },
+};
 
 export type Plan = { steps: Step[]; understood: string; by: "rules" | "model" };
 
@@ -48,6 +59,12 @@ export function planRules(q: string): Plan | null {
   const s = q.trim();
   if (!s) return null;
   const lower = s.toLowerCase();
+
+  // Portfolio-wide ranking questions ("which of my stocks…", "rank by…", "weakest…")
+  if (/\b(which|rank|ranking|screen|worst|best|weakest|strongest|highest|lowest|most|least)\b/i.test(lower) && /\b(my|holdings|portfolio|stocks|book|companies)\b/i.test(lower)) {
+    const m = (Object.keys(METRICS) as Metric[]).find((k) => METRICS[k].re.test(lower));
+    if (m) return { steps: [{ tool: "screen", metric: m }], understood: `Rank your holdings: ${METRICS[m].label.toLowerCase()}`, by: "rules" };
+  }
 
   const p = PEOPLE.find((x) => lower.includes(x.name.toLowerCase()) || (x.name.split(" ").length > 1 && lower.includes(x.name.split(" ").slice(-1)[0].toLowerCase()) && x.kind === "public"));
   if (p) return { steps: [{ tool: "reach", personId: p.id }], understood: `How you can reach ${p.name}`, by: "rules" };
@@ -87,5 +104,7 @@ export function hrefFor(step: Step): string {
       return `/person/${step.personId}`;
     case "digest":
       return `/`;
+    case "screen":
+      return `/ask?screen=${step.metric}`;
   }
 }

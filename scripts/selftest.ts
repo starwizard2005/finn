@@ -55,11 +55,12 @@ import("../lib/ask").then(({ planRules, hrefFor }) => {
     ["Who should I call about CG Power?", "/company/CGPOWER#people"],
     ["TATAELXSI cash quality", "/company/TATAELXSI#cash"],
     ["what changed this week", "/"],
+    ["which of my holdings has the weakest cash conversion relative to profits?", "/ask?screen=cash_conversion"],
   ];
   for (const [q, want] of cases) {
     const p = planRules(q);
     assert.equal(p && hrefFor(p.steps[0]), want, q);
   }
-  console.log("ask planner: 7/7 routed correctly");
+  console.log("ask planner: 8/8 routed correctly");
   console.log("\nall assertions passed");
 });

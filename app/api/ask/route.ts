@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     const r = await generateJSON<Plan>({
       tier: "fast",
       system: "You route an investor's question to tools. Reply with JSON only.",
-      prompt: `Tools: research(symbol, section in [promises,bullbear,cash,balance,trajectory,numbers]), who_can_help(symbol), experts(theme), digest(hours).
+      prompt: `Tools: research(symbol, section in [promises,bullbear,cash,balance,trajectory,numbers]), who_can_help(symbol), experts(theme), digest(hours), screen(metric in [cash_conversion,leverage,revenue_growth,profit_growth,margin_change]) to rank all holdings.
 Known companies: ${COMPANIES.map((c) => `${c.symbol}=${c.short}`).join(", ")}. Any other valid NSE symbol is allowed for research.
 Themes: ${THEMES.join(", ")}.
 Question: "${q}"
